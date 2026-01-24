@@ -1,0 +1,16 @@
+ * Serving Flask app 'chatbot_server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://21.0.8.179:5000
+Press CTRL+C to quit
+127.0.0.1 - - [23/Jan/2026 18:01:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2026 18:01:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2026 18:01:55] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2026 18:01:55] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2026 18:01:55] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2026 18:01:55] "GET /history?user_id=test_user_1 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2026 18:01:55] "GET /history?user_id=test_user_2 HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2026 18:01:55] "POST /reset HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jan/2026 18:01:55] "GET /history?user_id=test_user_1 HTTP/1.1" 200 -
